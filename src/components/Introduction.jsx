@@ -7,9 +7,9 @@ function Introduction() {
       <h1 className="myName">Azad Huseynzade</h1>
       <h2 className="build">I build things for the web.</h2>
       <p className="textSide">
-        I’m a software engineer specializing in building (and occasionally
-        designing) exceptional digital experiences. Currently, I’m focused on
-        building accessible, human-centered products at Upstatement.
+        I'm a Junior React Developer . The projects that I have been working on
+        are websites built from scratch and used modern libraries and frameworks
+        such as React
       </p>
       <button className="checkButton">Check out my course !</button>
     </div>
