@@ -1,0 +1,354 @@
+.mainProjectsDiv {
+  margin-top: 200px;
+}
+
+.tittle-03 {
+  display: flex;
+  margin-left: 280px;
+}
+
+.work-03 {
+  font-size: 20px;
+  color: #64ffda;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.built-03 {
+  font-size: 32px;
+  color: #ccd6f6;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.allProjects {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.tello {
+  width: 580px;
+  height: 335px;
+  margin-top: 50px;
+  margin-left: 20px;
+  object-fit: scale-down;
+  opacity: 0.7;
+}
+
+.tello:hover {
+  opacity: 1;
+  transition: 0.3s ease-out;
+}
+
+.featured {
+  font-size: 12px;
+  color: white;
+  text-align: right;
+  margin-top: 80px;
+}
+.theme {
+  color: #ccd6f6;
+  text-align: right;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.lineThreeCounts {
+  padding: 30px 30px 30px 35px;
+  background-color: #112440;
+  position: absolute;
+  right: 240px;
+  z-index: 10;
+  line-height: 25px;
+  border-radius: 8px;
+}
+.lineThreeCounts p {
+  color: #a8b2d1;
+  text-align: right;
+  margin: 0px;
+}
+.tools {
+  margin-top: 180px;
+  color: #a8b2d1;
+  word-spacing: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+.icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.github,
+.link {
+  cursor: pointer;
+  font-size: 20px;
+  color: #64ffda;
+}
+
+.descriptionSide {
+  width: 35%;
+}
+.github {
+  margin-right: 20px;
+}
+
+.allProjects2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+.allProjects2 .featured {
+  text-align: left;
+  margin-left: 100px;
+}
+.allProjects2 .theme {
+  text-align: left;
+  margin-left: 100px;
+}
+.allProjects2 .lineThreeCounts {
+  padding: 30px 30px 30px 35px;
+  background-color: #112440;
+  position: absolute;
+  right: 51%;
+  z-index: 10;
+  line-height: 25px;
+  border-radius: 8px;
+}
+
+.allProjects2 .tools {
+  justify-content: left;
+  margin-left: 100px;
+}
+.allProjects2 .icons {
+  justify-content: left;
+  margin-left: 95px;
+}
+.allProjects2 .bookContent {
+  width: 580px;
+  height: 335px;
+  margin-top: 50px;
+  margin-left: 0px;
+  object-fit: scale-down;
+  opacity: 0.7;
+  margin-right: 250px;
+}
+
+.bookContent:hover {
+  opacity: 1;
+  transition: 0.3s ease-out;
+}
+.aboutMeLine3 {
+  width: 300px;
+  height: 1px;
+  background-color: #233554;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainProjectsDiv {
+    margin-top: 130px;
+    position: relative;
+  }
+
+  .tittle-03 {
+    margin-left: 30px;
+  }
+  .aboutMeLine3 {
+    display: none;
+  }
+
+  .work-03 {
+    font-size: 20px;
+  }
+  .built-03 {
+    font-size: 25px;
+  }
+
+  .allProjects {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tello {
+    max-width: 300px;
+    max-height: 200px;
+    margin-top: 0px;
+    margin-left: 30px;
+    object-fit: scale-down;
+    opacity: 0.7;
+  }
+
+  .tello:hover {
+    opacity: 1;
+    transition: 0.3s ease-out;
+  }
+
+  .descriptionSide {
+    display: flex;
+  }
+  .featured {
+    display: none;
+  }
+  .theme {
+    font-size: 25px;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .lineThreeCounts {
+    display: none;
+  }
+
+  .tools {
+    display: none;
+  }
+  .icons {
+    margin-top: 20px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .github,
+  .link {
+    cursor: pointer;
+    font-size: 25px;
+    color: #64ffda;
+  }
+
+  .descriptionSide {
+    width: 100%;
+  }
+  .github {
+    margin-right: 20px;
+  }
+
+  .allProjects2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .allProjects2 .featured {
+    text-align: left;
+    margin-left: 0px;
+  }
+  .allProjects2 .theme {
+    text-align: left;
+    margin-left: 40px;
+  }
+  .allProjects2 .lineThreeCounts {
+    padding: 0;
+    background-color: #112440;
+    position: absolute;
+    right: 0%;
+    z-index: 10;
+    line-height: 25px;
+    border-radius: 8px;
+  }
+
+  .allProjects2 .tools {
+    justify-content: left;
+    margin-left: 30px;
+  }
+  .allProjects2 .icons {
+    justify-content: right;
+    margin-left: 60px;
+  }
+  .allProjects2 .bookContent {
+    max-width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 30px;
+    object-fit: scale-down;
+    opacity: 0.7;
+    margin-right: 0px;
+  }
+
+  .bookContent:hover {
+    opacity: 1;
+    transition: 0.3s ease-out;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tittle-03 {
+    margin-left: 90px;
+  }
+  .allProjects {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .tello {
+    max-width: 500px;
+    max-height: 400px;
+    margin-top: 0px;
+    margin-left: 30px;
+    object-fit: scale-down;
+    opacity: 0.7;
+  }
+
+  .tello:hover {
+    opacity: 1;
+    transition: 0.3s ease-out;
+  }
+
+  .descriptionSide {
+    display: flex;
+  }
+  .featured {
+    display: none;
+  }
+  .theme {
+    font-size: 25px;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .lineThreeCounts {
+    display: none;
+  }
+
+  .tools {
+    display: none;
+  }
+  .icons {
+    margin-top: 20px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .github,
+  .link {
+    cursor: pointer;
+    font-size: 25px;
+    color: #64ffda;
+  }
+
+  .descriptionSide {
+    width: 100%;
+  }
+  .github {
+    margin-right: 20px;
+  }
+
+  .allProjects2 {
+    display: none;
+  }
+}

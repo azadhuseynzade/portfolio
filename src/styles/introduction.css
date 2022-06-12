@@ -1,0 +1,77 @@
+.mainIntroDiv {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.hi {
+  font-size: 16px;
+  color: #64ffda;
+  font-weight: 500;
+  margin: 0 0 20px 4px;
+  word-spacing: 5px;
+}
+
+.myName {
+  font-size: 80px;
+  color: #ccd6f6;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.build {
+  font-size: 80px;
+  color: #8892b0;
+  margin: 10px 0px 0px;
+}
+
+.textSide {
+  font-size: 20px;
+  color: #8892b0;
+  max-width: 600px;
+  line-height: 25px;
+}
+
+.checkButton {
+  font-size: 16px;
+  width: 231px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #64ffda;
+  background-color: #0a192f;
+  color: #64ffda;
+  word-spacing: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .mainIntroDiv {
+    margin-left: 20px;
+  }
+
+  .myName {
+    font-size: 40px;
+  }
+  .build {
+    font-size: 38px;
+  }
+
+  .textSide {
+    font-size: 18px;
+  }
+
+  .checkButton {
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mainIntroDiv {
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  .myName {
+    font-size: 65px;
+  }
+  .build {
+    font-size: 65px;
+  }
+}
