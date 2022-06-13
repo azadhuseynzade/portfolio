@@ -32,8 +32,13 @@ function OtherProjects() {
           return (
             <div className="box">
               <div className="folderAndLink">
-                <BsFolder2 className="folderIcon" />
-                <AiOutlineLink className="linkIcon" />
+                <a href={project.link}>
+                  <BsFolder2 className="folderIcon" />
+                </a>
+
+                <a href={project.link}>
+                  <AiOutlineLink className="linkIcon" />
+                </a>
               </div>
               <h6 className="titleOtherProj">{project.title}</h6>
               <p className="descOtherProj">{project.desc}</p>
