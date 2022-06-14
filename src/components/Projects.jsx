@@ -16,7 +16,7 @@ function Projects() {
       </div>
       <div className="allProjects">
         <div className="imageSide">
-          <a href="https://azad-huseynzade.netlify.app/">
+          <a href="https://tello-e-commerce.netlify.app/">
             <img className="tello" src={Tello} alt="tello" />
           </a>
         </div>

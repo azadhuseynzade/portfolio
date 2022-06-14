@@ -105,9 +105,6 @@ ul li span {
     transition: all 0.45s;
     margin-top: 30px;
   }
-  .nav-logo {
-    background-color: #112440;
-  }
 
   .Navbar > .nav-items .home {
     margin-top: 100px;
