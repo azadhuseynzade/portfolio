@@ -110,8 +110,8 @@ ul li span {
     margin-top: 100px;
   }
   .Navbar > .nav-items > a > span {
-    font-size: 35px;
-    color: white;
+    font-size: 15px;
+    color: red;
     margin-top: 2px;
     margin-right: 5px;
   }
