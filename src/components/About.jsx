@@ -4,7 +4,7 @@ import Me from "../images/Me.JPG";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 function About() {
   return (
-    <div>
+    <div id="about">
       <div className="mainAboutMeDiv">
         <div>
           <span className="about-01">01.</span>

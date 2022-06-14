@@ -6,7 +6,7 @@ import Tello from "../images/project-tello.png";
 import Bookcontent from "../images/Book-content - Google Chrome 6_9_2022 7_00_30 PM.png";
 function Projects() {
   return (
-    <div className="mainProjectsDiv">
+    <div className="mainProjectsDiv" id="work">
       <div className="tittle-03">
         <div>
           <span className="work-03">03.</span>

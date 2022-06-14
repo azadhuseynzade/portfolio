@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../styles/header.css";
 import Logo from "../images/logo-2.webp";
 import CV from "../images/Azad-Huseynzade-CV.pdf";
+import { Anchor } from "antd";
+import About from "../components/About";
+const { Link } = Anchor;
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +14,7 @@ const Header = () => {
         <img className="logoImg" src={Logo} alt="logo" />
       </span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home" className="home">
+        <a href="/about" className="home">
           <span>01.</span> About
         </a>
         <a href="/about">
@@ -29,6 +32,7 @@ const Header = () => {
           Resume
         </a>
       </div>
+
       <div
         className={`nav-toggle ${isOpen && "open"}`}
         onClick={() => setIsOpen(!isOpen)}

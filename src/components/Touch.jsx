@@ -4,7 +4,7 @@ import { AiFillStar } from "react-icons/ai";
 import { BiGitBranch } from "react-icons/bi";
 function Touch() {
   return (
-    <div className="mainTouchDiv">
+    <div className="mainTouchDiv" id="contact">
       <p className="next">04. What’s Next?</p>
       <h1 className="touch">Get In Touch</h1>
       <p className="touchFirstLine">

@@ -10,7 +10,7 @@ function Work() {
   }, []);
   const { duties } = workers[value];
   return (
-    <div className="mainDiv">
+    <div className="mainDiv" id="experience">
       <div className="workTitleDiv">
         <div>
           <span className="work-02">02.</span>
