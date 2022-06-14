@@ -14,7 +14,10 @@ function Touch() {
         always open. If you have a question or just want to say hi, I’ll try
       </p>
       <p className="touchThirdLine"> to get back to you!</p>
-      <a href="https://mail.google.com/mail/u/0/#inbox">
+      <a
+        href="https://mail.google.com/mail/u/0/#inbox"
+        style={{ textDecoration: "none" }}
+      >
         <button className="touchBtn">Say Hello</button>
       </a>
       <p className="designed">Designed & Built by Azad Huseynzade</p>
