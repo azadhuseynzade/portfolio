@@ -16,51 +16,61 @@ function Projects() {
       </div>
       <div className="allProjects">
         <div className="imageSide">
-          <img className="tello" src={Tello} alt="tello" />
+          <a href="https://github.com/AZADHUSEYNZADE/frontend-final-project">
+            <img className="tello" src={Tello} alt="tello" />
+          </a>
         </div>
         <div className="descriptionSide">
-          <p className="featured">Featured Project</p>
-          <h4 className="theme">Halcyon Theme</h4>
+          <p className="featured">E-Commerce Project</p>
+          <h4 className="theme">Tello</h4>
           <div className="lineThreeCounts">
             <p className="firstLine">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+              Tello project built with ReactJS.I used CommerceJS for creating
             </p>
             <p className="secondLine">
-              iTerm, and more. Available on Visual Studio Marketplace,
+              API.Some technologies which are used in this project:HTML,
             </p>
             <p className="thirdLine">
-              Package Control, Atom Package Manager, and npm.
+              SASS,ReactJS,Redux,Material-UI and Styled-components
             </p>
           </div>
-          <span className="tools">VS Code Sublime Text Atom iTerm2 Hyper</span>
+          <span className="tools">VS Code Pagination SwiperJS CommerceJS</span>
           <div className="icons">
-            <RiGithubFill className="github" />
-            <FiExternalLink className="link" />
+            <a href="https://github.com/AZADHUSEYNZADE/frontend-final-project">
+              <RiGithubFill className="github" />
+            </a>
+            <a href="https://github.com/AZADHUSEYNZADE/frontend-final-project">
+              <FiExternalLink className="link" />
+            </a>
           </div>
         </div>
       </div>
       <div className="allProjects2">
         <div className="imageSide">
-          <img className="bookContent" src={Bookcontent} alt="tello" />
+          <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
+            <img className="bookContent" src={Bookcontent} alt="tello" />
+          </a>
         </div>
         <div className="descriptionSide">
-          <p className="featured">Featured Project</p>
-          <h4 className="theme">Spotify Profile</h4>
+          <p className="featured">Book-shop Project</p>
+          <h4 className="theme">Booknetic</h4>
           <div className="lineThreeCounts">
             <p className="firstLine">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom,
+              Booknetic project bulit with HTML and BootStrap.This is a ful-
             </p>
             <p className="secondLine">
-              iTerm, and more. Available on Visual Studio Marketplace,
+              ly responsive website.It has four parts:Features,Resources,
             </p>
-            <p className="thirdLine">
-              Package Control, Atom Package Manager, and npm.
-            </p>
+            <p className="thirdLine">Demo and Buy Now.</p>
           </div>
-          <span className="tools">VS Code Sublime Text Atom iTerm2 Hyper</span>
+          <span className="tools">VS Code HTML BootStrap Responsive</span>
           <div className="icons">
-            <RiGithubFill className="github" />
-            <FiExternalLink className="link" />
+            <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
+              <RiGithubFill className="github" />
+            </a>
+            <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
+              <FiExternalLink className="link" />
+            </a>
           </div>
         </div>
       </div>

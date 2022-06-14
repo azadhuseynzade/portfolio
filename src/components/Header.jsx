@@ -23,7 +23,10 @@ const Header = () => {
           {" "}
           <span>04.</span> Contact
         </a>
-        <a href="/contact" className="resume">
+        <a
+          href="https://www.linkedin.com/jobs/application-settings/"
+          className="resume"
+        >
           Resume
         </a>
       </div>
