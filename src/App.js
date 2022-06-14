@@ -7,6 +7,7 @@ import Projects from "../src/components/Projects";
 import OtherProjects from "../src/components/OtherProjects";
 import Touch from "../src/components/Touch";
 import Fixed from "../src/components/Fixed";
+
 function App() {
   return (
     <div className="App">
