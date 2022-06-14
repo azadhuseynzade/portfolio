@@ -11,7 +11,9 @@ function Introduction() {
         are websites built from scratch and used modern libraries and frameworks
         such as React
       </p>
-      <button className="checkButton">Check out my course !</button>
+      <a href="https://www.tech.edu.az/">
+        <button className="checkButton">Check out my course !</button>
+      </a>
     </div>
   );
 }

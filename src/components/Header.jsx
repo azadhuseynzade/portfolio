@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "../styles/header.css";
 import Logo from "../images/logo-2.webp";
+import CV from "../images/Azad-Huseynzade-CV.pdf";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="Navbar">
       <span className="nav-logo">
@@ -23,10 +25,7 @@ const Header = () => {
           {" "}
           <span>04.</span> Contact
         </a>
-        <a
-          href="https://www.linkedin.com/jobs/application-settings/"
-          className="resume"
-        >
+        <a href={CV} download className="resume">
           Resume
         </a>
       </div>
