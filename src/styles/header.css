@@ -92,6 +92,7 @@ ul li span {
 @media (max-width: 700px) {
   .Navbar {
     margin: 30px 20px;
+    z-index: 0;
   }
   .Navbar > .nav-items {
     position: absolute;
@@ -101,7 +102,8 @@ ul li span {
     background: #112440;
     right: 0;
     width: 100%;
-    height: 200vh;
+    min-height: 1000vh;
+    z-index: 100;
     transform: translateX(-100%);
     transition: all 0.45s;
     margin-top: 30px;
