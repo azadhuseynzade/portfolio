@@ -6,7 +6,27 @@
   background: #0a192f;
   margin: 30px 40px;
 }
-
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+.myAnchortag {
+  margin-top: 12px;
+}
+a:-webkit-any-link {
+  color: #ccd6f6;
+  word-spacing: 5px;
+  text-decoration: none;
+}
+a:-webkit-any-link:hover {
+  color: #64ffda;
+}
+.myAnchortag button {
+  font-size: 14px;
+  background-color: #0a192f;
+  border: none;
+  margin-left: 20px;
+}
 .Navbar > .nav-logo {
   font-weight: 700;
   font-size: 21px;
@@ -21,29 +41,10 @@
   margin: 15px;
   position: relative;
   opacity: 0.9;
+  margin-top: 0px;
 }
-.Navbar > .nav-items > a > span {
-  font-size: 12px;
-  color: white;
-}
-
 .Navbar > .nav-items > a:hover {
-  opacity: 1;
-}
-
-.Navbar > .nav-items > a::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background: #ffffff;
-  transition: all 0.45s;
-}
-
-.Navbar > .nav-items > a:hover::before {
-  width: 100%;
+  color: #64ffda;
 }
 
 .Navbar > .nav-toggle {
@@ -75,15 +76,15 @@ ul li span {
   margin-top: 0px;
   padding: 12px 16px;
   border: 1px solid #64ffda;
-  color: #64ffda;
+  color: #ccd6f6;
   border-radius: 8px;
   margin-left: 30px;
   cursor: pointer;
 }
 
 .logoImg {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
@@ -105,29 +106,29 @@ ul li span {
     transition: all 0.45s;
     margin-top: 30px;
   }
+  .ant-anchor-fixed {
+    display: flex;
+    flex-direction: column;
+  }
 
-  .Navbar > .nav-items .home {
-    margin-top: 100px;
+  .myAnchortag button {
+    background-color: #112440;
+    margin: 20px 0px;
   }
-  .Navbar > .nav-items > a > span {
-    font-size: 15px;
-    color: white;
-    margin-top: 2px;
-    margin-right: 5px;
+  a:-webkit-any-link {
+    font-size: 18px;
+    color: #ccd6f6;
+    font-weight: 600;
   }
+
   .Navbar > .nav-items > a {
     font-size: 18px;
     color: #ccd6f6;
     cursor: pointer;
-
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    margin-top: 60px;
-  }
-
-  .Navbar > .nav-items > a::before {
-    background: transparent;
+    margin-top: 30px;
   }
 
   .Navbar > .nav-items.open {

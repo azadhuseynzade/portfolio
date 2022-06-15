@@ -13,30 +13,12 @@ const Header = () => {
         <img className="logoImg" src={Logo} alt="logo" />
       </span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        {/* <a href="#" className="home">
-          <span>01.</span> About
-        </a>
-
-        <a href="/about">
-          <span>02.</span> Experience
-        </a>
-        <a href="/service">
-          {" "}
-          <span>03.</span> Work
-        </a>
-        <a href="/contact">
-          {" "}
-          <span>04.</span> Contact
-        </a>
-        <a href={CV} download className="resume">
-          Resume
-        </a> */}
-        <Anchor targetOffset="65">
+        <Anchor affix={false} className="myAnchortag" targetOffset="65">
           <button
             className={`nav-toggle ${isOpen && "open"}`}
             onClick={() => setIsOpen(!isOpen)}
           >
-            <Link href="#about" title="01.About" />
+            <Link className="myLink" href="#about" title="01.About" />
           </button>
           <button
             className={`nav-toggle ${isOpen && "open"}`}
