@@ -102,7 +102,7 @@ ul li span {
     background: #112440;
     right: 0;
     width: 100%;
-    min-height: 1000vh;
+    height: 1000vh;
     z-index: 100;
     transform: translateX(-100%);
     transition: all 0.45s;
