@@ -39,7 +39,7 @@ function Projects() {
             <a href="https://github.com/AZADHUSEYNZADE/frontend-final-project">
               <RiGithubFill className="github" />
             </a>
-            <a href="https://github.com/AZADHUSEYNZADE/frontend-final-project">
+            <a href="https://tello-e-commerce.netlify.app/">
               <FiExternalLink className="link" />
             </a>
           </div>
@@ -67,9 +67,6 @@ function Projects() {
           <div className="icons">
             <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
               <RiGithubFill className="github" />
-            </a>
-            <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
-              <FiExternalLink className="link" />
             </a>
           </div>
         </div>

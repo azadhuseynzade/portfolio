@@ -23,9 +23,9 @@ function Touch() {
       <p className="designed">Designed & Built by Azad Huseynzade</p>
       <div className="lastPartTouch">
         <AiFillStar className="star" />
-        <span>300</span>
+        <span>100</span>
         <BiGitBranch className="branch" />
-        <span>150</span>
+        <span>50</span>
       </div>
     </div>
   );
