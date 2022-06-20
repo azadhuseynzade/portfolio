@@ -9,12 +9,11 @@ const data = [
     ],
   },
   {
-    workPlace: "Taste Cafe",
+    workPlace: "Freelancer",
     duties: [
-      "Present the menu to customers, answers queries about it, and makes suggestions if necessary",
-      "Explain the preparation and cooking methods as well as ingredients of various menu items",
-      "Collect the customers’ payments and  prepares bills with itemized costs and appropriate taxes",
-      "Prepare and tidies up the tables or counters; makes sure there are enough salt, sugar, pepper, cream, other condiments, and napkins in every table or counter.",
+      "Developing,optimizing and maintaining the websites and applications utilizing HTML,CSS,JavaScript,TypeScript,ReactJS,Redux,BootStrap,SASS,Material UI and various APIs to meet my clients needs and goals. ",
+      "Collaborating with the sales,marketing and support teams within numerous organizations to launch products on time and within budget",
+      "Managing the creative projects from concept to completion while managing outside vendors",
     ],
   },
 ];
