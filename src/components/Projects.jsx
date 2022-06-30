@@ -4,6 +4,7 @@ import { RiGithubFill } from "react-icons/ri";
 import { FiExternalLink } from "react-icons/fi";
 import Tello from "../images/project-tello.png";
 import Bookcontent from "../images/Book-content - Google Chrome 6_9_2022 7_00_30 PM.png";
+import Starbucks from "../images/Starbucks.png";
 function Projects() {
   return (
     <div className="mainProjectsDiv" id="work">
@@ -67,6 +68,35 @@ function Projects() {
           <div className="icons">
             <a href="https://github.com/AZADHUSEYNZADE/HTML-CSS-Final-Project-Booknetic">
               <RiGithubFill className="github" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="allProjects">
+        <div className="imageSide">
+          <a href="https://starbucks-proj.netlify.app/">
+            <img className="tello" src={Starbucks} alt="starbucks" />
+          </a>
+        </div>
+        <div className="descriptionSide">
+          <p className="featured">Coffee Shop Project</p>
+          <h4 className="theme">Starbucks</h4>
+          <div className="lineThreeCounts">
+            <p className="firstLine">
+              Starbucks project built with HTML CSS JavaScript.I used BootStrap
+            </p>
+            <p className="secondLine">
+              for making styles.This is a fully responsive project.
+            </p>
+            <p className="thirdLine"></p>
+          </div>
+          <span className="tools">VS Code Pagination SwiperJS CommerceJS</span>
+          <div className="icons">
+            <a href="https://github.com/AZADHUSEYNZADE/Starbucks-project">
+              <RiGithubFill className="github" />
+            </a>
+            <a href="https://starbucks-proj.netlify.app/">
+              <FiExternalLink className="link" />
             </a>
           </div>
         </div>
