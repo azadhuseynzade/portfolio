@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import Tello from "../images/project-tello.png";
 import Bookcontent from "../images/Book-content - Google Chrome 6_9_2022 7_00_30 PM.png";
 import Starbucks from "../images/Starbucks.png";
-import Converter from "../images/converter.png";
+import Converter from "../images/converter2.png";
 function Projects() {
   return (
     <div className="mainProjectsDiv" id="work">
@@ -109,16 +109,15 @@ function Projects() {
           </a>
         </div>
         <div className="descriptionSide">
-          <p className="featured">Book-shop Project</p>
-          <h4 className="theme">Booknetic</h4>
+          <p className="featured">Converter Project</p>
+          <h4 className="theme">Converter</h4>
           <div className="lineThreeCounts">
             <p className="firstLine">
-              Booknetic project bulit with HTML and BootStrap.This is a ful-
+              Converter project bulit with ReactJS.This is a fully responsive
             </p>
             <p className="secondLine">
-              ly responsive website.It has four parts:Features,Resources,
+              website.I used exchangeratesapi for creating API.
             </p>
-            <p className="thirdLine">Demo and Buy Now.</p>
           </div>
           <span className="tools">VS Code HTML BootStrap Responsive</span>
           <div className="icons">
