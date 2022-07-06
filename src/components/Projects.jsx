@@ -6,6 +6,7 @@ import Tello from "../images/project-tello.png";
 import Bookcontent from "../images/Book-content - Google Chrome 6_9_2022 7_00_30 PM.png";
 import Starbucks from "../images/Starbucks.png";
 import Converter from "../images/converter2.png";
+import Menu from "../images/Menu.png";
 function Projects() {
   return (
     <div className="mainProjectsDiv" id="work">
@@ -125,6 +126,35 @@ function Projects() {
               <RiGithubFill className="github" />
             </a>
             <a href="https://converter-moneyyyy.netlify.app/">
+              <FiExternalLink className="link" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="allProjects">
+        <div className="imageSide">
+          <a href="https://menu-projecttt.netlify.app/">
+            <img className="tello" src={Menu} alt="starbucks" />
+          </a>
+        </div>
+        <div className="descriptionSide">
+          <p className="featured">Menu Project</p>
+          <h4 className="theme">Menu</h4>
+          <div className="lineThreeCounts">
+            <p className="firstLine">
+              Menu project built with HTML CSS ReactJS .I also used Styled-
+            </p>
+            <p className="secondLine">
+              components and spoonacular API.This is a fully responsive
+            </p>
+            <p className="thirdLine"> project.</p>
+          </div>
+          <span className="tools">VS Code Pagination SwiperJS CommerceJS</span>
+          <div className="icons">
+            <a href="https://github.com/AZADHUSEYNZADE/Menu-Project-ReactJS-">
+              <RiGithubFill className="github" />
+            </a>
+            <a href="https://menu-projecttt.netlify.app/">
               <FiExternalLink className="link" />
             </a>
           </div>
