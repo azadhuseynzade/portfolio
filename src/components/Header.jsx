@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/header.css";
 import Logo from "../images/logo-2.webp";
 import { Anchor } from "antd";
-import CV from "../images/Azad Huseynzada CV.pdf";
+import CV from "../images/Azad Huseynzade CV.pdf";
 const { Link } = Anchor;
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
